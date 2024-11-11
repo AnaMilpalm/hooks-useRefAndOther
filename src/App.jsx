@@ -14,9 +14,7 @@ const App = () => {
 
   return (
     <>
-      <button onClick={handleClick}>
-        Click to update ref value
-      </button>
+  
       <Player source="http://media.w3.org/2010/05/sintel/trailer.mp4" />
     </>
   );
