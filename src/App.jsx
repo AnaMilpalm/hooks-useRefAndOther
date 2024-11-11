@@ -1,16 +1,15 @@
-import { useEffect, useState, useRef } from "react";
 import Player from "./assets/components/Player/Player";
  
 const App = () => {
  
-  const valueRef = useRef(0);
+  // const valueRef = useRef(0);
 
 
-  const handleClick = () => {
-		// Кліки будуть після монтування,
-		// тому завжди буде посиланням на DOM-елемент
-    valueRef.current += 1;
-  };
+  // const handleClick = () => {
+	// 	// Кліки будуть після монтування,
+	// 	// тому завжди буде посиланням на DOM-елемент
+  //   valueRef.current += 1;
+  // };
 
   return (
     <>
